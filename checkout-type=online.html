@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+            <title>Ваш Тренер - Оплата</title>
+    <meta name="description" content="Оплата абонемента" />
+    <meta name="robots" content="all" />
+    <meta property="og:title" content="Ваш Тренер - Оплата" />
+    <meta property="og:description" content="words.profile.pay_subscription" />
+
+    <meta property="og:site_name" content="Ваш Тренер" />
+    <meta property="og:type" content="article" />
+
+        <meta property="fb:app_id" content="382135528551013" />
+        <link rel="icon" href="css/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/css-id=2656d679128f04b3130d.css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,600,700&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" type="text/css" href="css/checkout-id=1215bab8f86bb628f871.css"/>
+    </head>
+    <body>
+            <div id="wrap">
+        <div id="head">
+    <div id="head_menu">
+        <a href="index.html" ><span>Головна</span></a>
+                <a href="school.html" ><span>Школа</span></a>
+                <a href="trainer.html" ><span>Тренер</span></a>
+        <a href="services.html" ><span>Послуги</span></a>
+        <a href="contacts.html" ><span>Контакти</span></a>
+        <div class="cb"></div>
+    </div>
+    <div class="cb"></div>
+    <div id="head_logo">
+        <a href="index.html"><img src="css/imgs/logo/uk/logo.png" alt="Ваш Тренер" hidefocus="true" /></a>
+    </div>
+    <div id="head_languages">
+        <ul>
+                            <li>
+                    <a rel="alternate" class="active" hreflang="uk" href="checkout-type=online.html">
+                        українська
+                    </a>
+                </li>
+                            <li>
+                    <a rel="alternate"  hreflang="ru" href="ru/checkout-type=online.html">
+                        русский
+                    </a>
+                </li>
+                            <li>
+                    <a rel="alternate"  hreflang="en" href="en/checkout-type=online.html">
+                        english
+                    </a>
+                </li>
+                    </ul>
+    </div>
+
+</div>
+        <div id="main">
+            <div id="content">
+                <div class="v-title v-title-long">
+                    <h2 class="v-title-text">Оплата<span>Абонемента</span></h2>
+                </div>
+                <div id="profile_wrap">
+                    <form id="checkout_form" method="post">
+                        <div class="profile_title">Дані для оплати</div>
+                        <div class="profile_field">
+                            <span class="profile_capt">Телефон <span>*</span></span>
+                            <span class="profile_input"><input id="phone" class="int_only" type="text" name="Cellphone" placeholder=""
+                                                               data-tippy="Номер у міжнародному форматі, наприклад: +380911234567" /></span>
+                        </div>
+                        <div class="profile_rules">
+                            Виконуючи оплату, я приймаю
+                            <a id="show_rules" class="show_rules" href="docs/POLICY.pdf">умови згоди на використання персональних даних</a>
+                            <br /><br />
+                            Заповнюючи анкету, я підтверджую, що ознайомився з текстом у повному обсягу й
+                                                            <a target="_blank" href="docs/INTENSFIT-ONLINE.pdf">умовами угоди про надання спортивно-оздоровчих послуг</a>
+                                                        , приймаю їх та згідно з угодою зобов’язуюся виконувати свої обов’язки належним чином.
+                            <div class="accept_rules"><input name="accept_rules" type="checkbox" /><div>Підтверджую згоду</div></div>
+                        </div>
+                        <div class="profile_fin">
+                            <div class="send_container">
+                                <a id="pay_now" class="big_button" href="#js">Сплатити</a>
+                                <div class="send_image">Та розпочати нове життя</div>
+                            </div>
+                            <div class="side_form_load"><img class="img_load" src="css/imgs/load.gif" alt="Loading" /></div>
+                            <div class="side_form_info success">Анкету надіслано<br />З Вами зв'яжуться</div>
+                        </div>
+                        <input type="hidden" name="type" value="online" />
+                    </form>
+
+                    <form id="checkout" method="POST" action="https://www.liqpay.ua/api/3/checkout" accept-charset="utf-8">
+                        <input type="hidden" name="data" value=""/>
+                        <input type="hidden" name="signature" value=""/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="wrap_foot">
+            <div id="footer">
+    <div id="foot_line">
+        <div id="foot_content">
+            <div id="foot_logo">
+                <div id="foot_phone"><div>+38 063 764 88 63</div></div>
+                <div id="copyrights">VASHTRENER.COM.UA © 2020<br />
+                    Усі права захищені. <a href="ru/rules.html">Правила користування сайтом</a><br /><br />
+                    Розробник сайту - <a href="http://fianta.com" target="_blank">FIANTA</a></div>
+            </div>
+            <div id="foot_menu">
+                <a href="index.html" ><span>Головна</span></a>
+                <a href="trainer.html" ><span>Тренер</span></a>
+                <a href="services.html" ><span>Послуги</span></a>
+                <a href="ru/photos.html" ><span>Фото</span></a>
+                <a href="contacts.html" ><span>Контакти</span></a>
+            </div>
+            <div id="foot_services">
+                Послуги:
+                <div id="foot_links">
+                    <a href="ru/intensfit.html" >Програма схуднення <b>'IntensFit'</b></a>
+                    <a href="ru/diet.html" >Правильне харчування</a>
+                    <a href="ru/intensfit_online.html" >Консультації online</a>
+                    <a href="ru/certificate.html" class=" sgift ">Подарункові сертифікати</a>
+                    <a href="https://www.facebook.com/406702112769762" title="Ваш Тренер Facebook" target="_blank">Ваш Тренер Facebook</a>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/js-id=bfaafc0df623e353600a.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/css/intlTelInput.css">
+
+
+    <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+
+    <script src="js/checkout-id=4917b5afcaf6e10ccb26.js"></script>
+    </body>
+</html>

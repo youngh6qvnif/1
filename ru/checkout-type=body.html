@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+            <title>﻿Ваш Тренер - Оплата</title>
+    <meta name="description" content="Оплата абонемента" />
+    <meta name="robots" content="all" />
+    <meta property="og:title" content="Ваш Тренер - Оплата" />
+    <meta property="og:description" content="words.profile.pay_subscription" />
+    <meta property="og:image" content="https://vashtrener.com.ua/css/imgs/trainer_choice/ru/result.jpg" />
+    <meta property="og:url" content="https://vashtrener.com.ua/ru/checkout" />
+    <meta property="og:site_name" content="Ваш Тренер" />
+    <meta property="og:type" content="article" />
+        <meta name="csrf-token" content="6FrKuMYIj8FjJVpCfHyaacdymkZc3YZGQWowmTS7"/>
+        <meta property="fb:app_id" content="382135528551013" />
+        <link rel="icon" href="../css/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="../css/css-id=2656d679128f04b3130d.css" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,600,700&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+            <link rel="stylesheet" type="text/css" href="../css/checkout-id=1215bab8f86bb628f871.css"/>
+    </head>
+    <body>
+            <div id="wrap">
+        <div id="head">
+    <div id="head_menu">
+        <a href="../ru.html" ><span>Главная</span></a>
+                <a href="school.html" ><span>Школа</span></a>
+                <a href="trainer.html" ><span>Тренер</span></a>
+        <a href="services.html" ><span>Услуги</span></a>
+        <a href="contacts.html" ><span>Контакты</span></a>
+        <div class="cb"></div>
+    </div>
+    <div class="cb"></div>
+    <div id="head_logo">
+        <a href="../ru.html"><img src="../css/imgs/logo/ru/logo.png" alt="Ваш Тренер" hidefocus="true" /></a>
+    </div>
+    <div id="head_languages">
+        <ul>
+                            <li>
+                    <a rel="alternate"  hreflang="uk" href="checkout-type=body.html">
+                        українська
+                    </a>
+                </li>
+                            <li>
+                    <a rel="alternate" class="active" hreflang="ru" href="checkout-type=body.html">
+                        русский
+                    </a>
+                </li>
+                            <li>
+                    <a rel="alternate"  hreflang="en" href="../en/checkout-type=body.html">
+                        english
+                    </a>
+                </li>
+                    </ul>
+    </div>
+
+</div>
+        <div id="main">
+            <div id="content">
+                <div class="v-title v-title-long">
+                    <h2 class="v-title-text">Оплата<span>Абонемента</span></h2>
+                </div>
+                <div id="profile_wrap">
+                    <form id="checkout_form" method="post">
+                        <div class="profile_title">Данные для оплаты</div>
+                        <div class="profile_field">
+                            <span class="profile_capt">Телефон <span>*</span></span>
+                            <span class="profile_input"><input id="phone" class="int_only" type="text" name="Cellphone" placeholder=""
+                                                               data-tippy="Номер в международном формате, например: +380911234567" /></span>
+                        </div>
+                        <div class="profile_rules">
+                            Выполняя оплату, я принимаю
+                            <a id="show_rules" class="show_rules" href="docs/POLICY.pdf">условия соглашения на использования персональных данных</a>
+                            <br /><br />
+                            Заполняя анкету я подтверждаю, что в полном объеме ознакомился с текстом и
+                                                            <a target="_blank" href="docs/HEALTHY-EATING.pdf">условиями договора присоединения про предоставление спортивно-оздоровительных услуг</a>
+                                                        , принимаю их и обязуюсь надлежащим образом выполнять свои обязательства по такому договору.
+                            <div class="accept_rules"><input name="accept_rules" type="checkbox" /><div>Подтверждаю согласие</div></div>
+                        </div>
+                        <div class="profile_fin">
+                            <div class="send_container">
+                                <a id="pay_now" class="big_button" href="#js">Оплатить</a>
+                                <div class="send_image">И начать новую жизнь</div>
+                            </div>
+                            <div class="side_form_load"><img class="img_load" src="../css/imgs/load.gif" alt="Loading" /></div>
+                            <div class="side_form_info success">Анкета отправлена<br />С Вами свяжутся</div>
+                        </div>
+                        <input type="hidden" name="type" value="body" />
+                    </form>
+
+                    <form id="checkout" method="POST" action="https://www.liqpay.ua/api/3/checkout" accept-charset="utf-8">
+                        <input type="hidden" name="data" value=""/>
+                        <input type="hidden" name="signature" value=""/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="wrap_foot">
+            <div id="footer">
+    <div id="foot_line">
+        <div id="foot_content">
+            <div id="foot_logo">
+                <div id="foot_phone"><div>+38 063 764 88 63</div></div>
+                <div id="copyrights">VASHTRENER.COM.UA © 2020<br />
+                    Все права защищены. <a href="rules.html">Правила пользования сайтом</a><br /><br />
+                    Разработчик сайта - <a href="http://fianta.com" target="_blank">FIANTA</a></div>
+            </div>
+            <div id="foot_menu">
+                <a href="../ru.html" ><span>Главная</span></a>
+                <a href="trainer.html" ><span>Тренер</span></a>
+                <a href="services.html" ><span>Услуги</span></a>
+                <a href="photos.html" ><span>Фото</span></a>
+                <a href="contacts.html" ><span>Контакты</span></a>
+            </div>
+            <div id="foot_services">
+                Услуги:
+                <div id="foot_links">
+                    <a href="intensfit.html" >Программа похудения <b>'IntensFit'</b></a>
+                    <a href="diet.html" >Правильное питание</a>
+                    <a href="intensfit_online.html" >Консультации online</a>
+                    <a href="certificate.html" class=" sgift ">Подарочные сертификаты</a>
+                    <a href="https://www.facebook.com/406702112769762" title="Ваш Тренер Facebook" target="_blank">Ваш Тренер Facebook</a>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-44301064-1', 'vashtrener.com.ua');
+    ga('send', 'pageview');
+</script>
+        </div>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="../js/js-id=bfaafc0df623e353600a.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/css/intlTelInput.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/intlTelInput-jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" type="text/javascript"></script>
+
+    <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@4"></script>
+
+    <script src="../js/checkout-id=4917b5afcaf6e10ccb26.js"></script>
+    </body>
+</html>
